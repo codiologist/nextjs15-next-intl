@@ -1,6 +1,12 @@
 {
-	"HomePage": {
-		"title": "hoga mara sara",
-		"about": "Go to the about page"
+	"common": {
+		"nav": {
+			"home": "হোম",
+			"services": "সেবাসমূহ"
+		},
+		"locations": {
+			"dhaka": "ঢাকা",
+			"chattogram": "চট্টগ্রাম"
+		}
 	}
 }
