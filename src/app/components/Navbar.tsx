@@ -3,6 +3,8 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
 import LocaleSwitcher from "./LocaleSwitcher";
+import LanguageSwitcher from "./LanguageSwitcher";
+import LocationSwitcher from "./LocationSwitcher";
 
 export function Navbar() {
 	const t = useTranslations("common");
@@ -30,7 +32,8 @@ export function Navbar() {
 							</Link>
 						</div>
 					</div>
-					<LocaleSwitcher />
+					<LocationSwitcher />
+					<LanguageSwitcher />
 				</div>
 			</div>
 		</nav>

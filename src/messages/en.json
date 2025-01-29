@@ -8,5 +8,9 @@
 			"dhaka": "Dhaka",
 			"chattogram": "Chattogram"
 		}
+	},
+
+	"HomePage": {
+		"title": "Home Page"
 	}
 }
